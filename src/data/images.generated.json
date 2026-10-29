@@ -1,0 +1,360 @@
+{
+  "images": [
+    {
+      "id": "hero-01",
+      "use": "hero",
+      "category": null,
+      "alt": "Smiling Indian bride partly covered by a delicate veil",
+      "caption": "Under the veil",
+      "width": 2400,
+      "height": 1500,
+      "color": "#382818",
+      "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoYAA8APu1yrU+pp6QiMAgBMB2JQBOmUGTkiTIqIaNnfGk5ggMoAP7pNumSudaEq8yamGJuxRbuXtzzLsT5cK1lW+aD1B0LFbF3Do3yzhPU+gJmIPQAAA==",
+      "src": "/images/hero-01-e6fe19c3",
+      "widths": [
+        960,
+        1600,
+        2400
+      ]
+    },
+    {
+      "id": "hero-02",
+      "use": "hero",
+      "category": null,
+      "alt": "Misty mountain landscape with pine trees and a winding path",
+      "caption": "Morning mist, Austria",
+      "width": 2400,
+      "height": 1500,
+      "color": "#282828",
+      "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYAA8APu1iqk2ppaQiMAgBMB2JZwAAWqFZG1QvHInVX7AA/oPLwjBiZYqP0+2MrgACw6tngD92+y4Cpzial7lhLuSdAs0Uf2SJweGfH1v6khgAAAA=",
+      "src": "/images/hero-02-174edc65",
+      "widths": [
+        960,
+        1600,
+        2400
+      ]
+    },
+    {
+      "id": "hero-03",
+      "use": "hero",
+      "category": null,
+      "alt": "Silhouette of two people standing on a beach shore at sunset",
+      "caption": "Last light",
+      "width": 2400,
+      "height": 1500,
+      "color": "#282828",
+      "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoYAA8APu1iqk2ppaQiMAgBMB2JZQCdACHYeGVG1Prl+UqAAP7pOw96TcgC9um05ZrTeY8tiCJjariQYFIkXGm8qHc6CX8dR/CmNAAA",
+      "src": "/images/hero-03-46e28d5c",
+      "widths": [
+        960,
+        1600,
+        2400
+      ]
+    },
+    {
+      "id": "about-portrait",
+      "use": "about",
+      "category": null,
+      "alt": "Photographer holding a camera in front of her face beside a railing",
+      "caption": "Ira at work",
+      "width": 1200,
+      "height": 1500,
+      "color": "#181818",
+      "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADwBACdASoYAB4APu1wsVIppiSiqAgBMB2JZwDKABEl7j9/Rm9Cqt/poWwwgKB0nwAA/u6FpoIB6+r+rIJFNg5xzngz4jHzkx7+jI98pa/1u86KjXxiPUbhX8znF8RMD+DQyj7/u2EHgAAA",
+      "src": "/images/about-portrait-6d20fd29",
+      "widths": [
+        600,
+        900,
+        1200
+      ]
+    },
+    {
+      "id": "wedding-01",
+      "use": "gallery",
+      "category": "wedding",
+      "alt": "Bride and groom in traditional attire adorned with flower garlands",
+      "caption": "Garlands, Kirtipur",
+      "width": 1800,
+      "height": 2400,
+      "color": "#783828",
+      "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADQBQCdASoYACAAPuleqE2pJSQiN/VYASAdCWYAnTKEeygVLvkXHNJv5Rzk2AtLxma7kSvFHvmgAP7uj+0sCVkZAouarjtWm84N9ZxOaVaX8A9x93OqNep+54+d4jrUODjMq+ZEu3nDUvENJcayAPl1HMNnuyhvLAujpavh09tjGYkUDj2cQy66/H9icp0zKMgAAA==",
+      "src": "/images/wedding-01-ed83f558",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "wedding-02",
+      "use": "gallery",
+      "category": "wedding",
+      "alt": "Close-up of a couple's hands with henna designs and engagement rings",
+      "caption": "Mehendi details",
+      "width": 1800,
+      "height": 1200,
+      "color": "#281818",
+      "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwBACdASoYABAAPu1oqk6ppiQiMAgBMB2JQBOmUI+PBTdeB9bXTXSgAbAA/uQNDGm2fidz1NLjfyJT1KOCyeujTpaOH1wuX6vw7JWENMUnkNTDa4uGXjRHLAAAAA==",
+      "src": "/images/wedding-02-2d575c94",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "wedding-03",
+      "use": "gallery",
+      "category": "wedding",
+      "alt": "Couple showered with flower petals during a traditional Indian wedding ceremony",
+      "caption": "Petal shower",
+      "width": 1800,
+      "height": 2250,
+      "color": "#281818",
+      "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABQBQCdASoYAB4APu1ip02ppSMiMBgMATAdiUATpmq4Lf8sMiZ7KvshY9w+3e2wcSh2ttwA/uNNP+2v9oaLIFLTweQSRbKgOyPcS1a6YxULHQTXTW8YjstwqrQeuV6AUB+gHre9RqQGkg1nwajpzQxiA9R5WAKToy0H3aOVUXiBoiBoXtqreki9lZP0ghzyAAA=",
+      "src": "/images/wedding-03-d7ae638e",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "wedding-04",
+      "use": "gallery",
+      "category": "wedding",
+      "alt": "Bride in a red lehenga and groom in a sherwani posing together",
+      "caption": "Varanasi vows",
+      "width": 1800,
+      "height": 1350,
+      "color": "#281818",
+      "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoYABIAPu1qqVAppiOiqA1RMB2JQBdgAiOi9swdamNnJhoU25GVfQAA/vDLQ06L9Z3HrNaQMTshKJqJtxH1T59abefPx0sI5JyBF310+WAwULLLCmC5uUA34QFmAA==",
+      "src": "/images/wedding-04-9380cb04",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "portrait-01",
+      "use": "gallery",
+      "category": "portrait",
+      "alt": "Woman sitting near a window in soft daylight",
+      "caption": "Window light",
+      "width": 1800,
+      "height": 2400,
+      "color": "#181818",
+      "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBQCdASoYACAAPu1irU2ppaSiKA1RMB2JaQAALo3wk2mCP9uIHLvjzat4tCHG08h0AAD+7o/tNoXH/LhfhEHkDBuDy3m7frz5a5XgKfSKaAxzs5vmvsTzJWfU43TKjrpaHmSNZBxLRDopreA4QggA",
+      "src": "/images/portrait-01-0f797d97",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "portrait-02",
+      "use": "gallery",
+      "category": "portrait",
+      "alt": "Elderly man in a white turban standing with a wooden stick",
+      "caption": "Village elder",
+      "width": 1800,
+      "height": 1800,
+      "color": "#181818",
+      "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBQCdASoYABgAPu1urlKppiQiqAgBMB2JZQC7ABElvczSK/rEifIms5WjGyCEo5GoAP7r7MifKIJY4e/FSde6PV8Nuryq+ji/17zv5ZvrKt8BQf/y8D+ZXAwfz7XXZtwVh806PViP0iBqy8bklF+K/vQEIlAA",
+      "src": "/images/portrait-02-a46fbde5",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "portrait-03",
+      "use": "gallery",
+      "category": "portrait",
+      "alt": "Woman in a hat smiling with her eyes closed",
+      "caption": "Unposed",
+      "width": 1800,
+      "height": 1200,
+      "color": "#282818",
+      "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYABAAPu1kqk4ppaQiMAgBMB2JZwDE2CEsxlmf4lHszxW1AAD+2l6cC4zJ9UliA0K3fRSSTtaZZYtKwzxdh32lTwSE/iHb55CvLA6ZTw/oreSuVyLPyLJsz3ljDkRuwAA=",
+      "src": "/images/portrait-03-e176fdb6",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "portrait-04",
+      "use": "gallery",
+      "category": "portrait",
+      "alt": "Black-and-white portrait of a man with one side of his face lit and the rest in shadow",
+      "caption": "Half light",
+      "width": 1800,
+      "height": 2400,
+      "color": "#080808",
+      "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwBQCdASoYACAAPu1erU4ppKSiMBgMATAdiWkAAC6Nz8nGEeeu4pr05RWlBmXAlpDcoAD+8Mlxup0vg6e/zgxzHqhua0i3bWQHDRtYxIejN3aYceYE74E8JRDh4/qEN+c3+FhH+CTLIAAA",
+      "src": "/images/portrait-04-34ea075d",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "travel-01",
+      "use": "gallery",
+      "category": "travel",
+      "alt": "Hot air balloons rising over a desert landscape at sunrise",
+      "caption": "Sunrise flight, Luxor",
+      "width": 1800,
+      "height": 1200,
+      "color": "#281818",
+      "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JQBOmUGYWiEJ+mWO16CAA/uQhp1NivsXPaHkCBnY7+Qw/oTZjdDrOtZ98SIiaZyQLqF7X4PkTn6i15tR/MXUAAAA=",
+      "src": "/images/travel-01-22fd0084",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "travel-02",
+      "use": "gallery",
+      "category": "travel",
+      "alt": "Brightly painted houses stacked on a hillside above the sea",
+      "caption": "Positano",
+      "width": 1800,
+      "height": 2250,
+      "color": "#384858",
+      "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQBACdASoYAB4APu1mq04ppaQiMAgBMB2JZwDImCHhgk/7vULvbmd/0W2pM24JkAD+6Nlnux5tqNVSb7hoDpHVL6nnFIvG1657cQ0FLyWZyfyk3OF9JBhanRruWNkN9PtLsiEwzBB9w4duBTlnYAAA",
+      "src": "/images/travel-02-cdc3f36c",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "travel-03",
+      "use": "gallery",
+      "category": "travel",
+      "alt": "Three camels walking through the desert at sunset",
+      "caption": "Desert crossing",
+      "width": 1800,
+      "height": 1200,
+      "color": "#181808",
+      "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOmUABpvhqW2C0jnCQgAP7pNuyt8AyeDF1q9EcN2nj+JNLiVmxhJ0s+K9qtBGUBPx4RK+zyXiLzyNqJ7MF2Sa11X8PAAAA=",
+      "src": "/images/travel-03-4c5a61cc",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "travel-04",
+      "use": "gallery",
+      "category": "travel",
+      "alt": "Snow-capped peak reflected in the still water of a mountain lake",
+      "caption": "Gokyo Lake, Nepal",
+      "width": 1800,
+      "height": 1350,
+      "color": "#181828",
+      "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoYABIAPu1qsFAppiSiqAqpMB2JZwCw7BEOSaK5/SbPBbIVgAD+6Tuu9UTpkqX7IQdXhkXCCm06o0YbRMDjqmRS0Xap6G+MfNMSRpk9WmQdZYQAAAA=",
+      "src": "/images/travel-04-7f7677b1",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "street-01",
+      "use": "gallery",
+      "category": "street",
+      "alt": "Man riding an auto rickshaw on a busy street in New Delhi",
+      "caption": "Delhi traffic",
+      "width": 1800,
+      "height": 2400,
+      "color": "#282828",
+      "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQBACdASoYACAAPuVkpk2pJiOiMAwBIByJYwDDrCHhgjK8nloRXE9X2VIXuPDBgAD+8M7kd9JBaG9wdrUYbP8eq/ljF9zC2/UFw/hZ2VjuiClCZZ3iqV2GtlBsj9h8sKu/BAAA",
+      "src": "/images/street-01-16d5a110",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "street-02",
+      "use": "gallery",
+      "category": "street",
+      "alt": "Pedestrians with umbrellas crossing a wet street at night under neon lights",
+      "caption": "Rain, Shibuya",
+      "width": 1800,
+      "height": 1200,
+      "color": "#182838",
+      "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZ2VuUI8TjaEzH6oAAP7vx2wk7korGd+qtR8Lj+E7aljPm3ONb3tSXkAAAA==",
+      "src": "/images/street-02-1f88d736",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "street-03",
+      "use": "gallery",
+      "category": "street",
+      "alt": "Vendor sitting beside a colourful fruit and vegetable stall",
+      "caption": "Kodaikanal market",
+      "width": 1800,
+      "height": 2250,
+      "color": "#181808",
+      "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASoYAB4APu1kqU2ppaOiMBgMATAdiWIAvkgQ76fy5hFD1MhqOkaAAP7yoVIpyOrwjduKkIclUsOeqgakvWSuaQ3tpDv0zk/lJucL6Flp923+M+yk38xagwKYE0Gavl8jpaQJjoAA",
+      "src": "/images/street-03-686bf8e6",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    },
+    {
+      "id": "street-04",
+      "use": "gallery",
+      "category": "street",
+      "alt": "Person walking down a narrow, sunlit alley",
+      "caption": "Afternoon alley",
+      "width": 1800,
+      "height": 1350,
+      "color": "#181818",
+      "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwBACdASoYABIAPu1qsVAppiUiqAqpMB2JZwC7ABEcTKuKgtKrt9Pz13StgAD+7DzlWsyDbVCHN8RBGfQmGvSpAinXnGGIRuzZp1Dvs+rzN1Uokuske5pORxK2c8GAAAA=",
+      "src": "/images/street-04-28da7dc3",
+      "widths": [
+        480,
+        800,
+        1200,
+        1800
+      ]
+    }
+  ]
+}

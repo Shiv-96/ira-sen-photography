@@ -1,0 +1,208 @@
+/*
+ * Global styles for the "Gallery Noir" design direction:
+ * Tailwind v4 import, design tokens, base element styles,
+ * shared button utilities, scroll reveal, custom cursor and reduced-motion rules.
+ */
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0e0e0e;
+  --color-ink-soft: #151515;
+  --color-ink-line: #2a2a2a;
+  --color-paper: #edeae4;
+  --color-mute: #8a8a85;
+  --color-brass: #b89b72;
+
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --animate-scroll-cue: scroll-cue 2.4s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  --animate-fade-in: fade-in 0.35s ease-out both;
+  --animate-page-in: fade-in 1s ease-out both;
+
+  @keyframes scroll-cue {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(200%); }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    /* Keeps anchored sections clear of the fixed header. */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-paper);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--color-brass);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brass);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+/* Container used by every section. */
+@utility page-container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-inline: 1.25rem;
+
+  @media (width >= 40rem) {
+    padding-inline: 2rem;
+  }
+
+  @media (width >= 64rem) {
+    padding-inline: 3rem;
+  }
+}
+
+@utility btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  border-radius: 9999px;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  padding: 1rem 2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--color-brass);
+  }
+
+  &:disabled {
+    cursor: wait;
+    opacity: 0.6;
+  }
+}
+
+@utility btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in srgb, var(--color-paper) 30%, transparent);
+  color: var(--color-paper);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  transition: border-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    border-color: var(--color-brass);
+    color: var(--color-brass);
+  }
+}
+
+@layer components {
+  /* Scroll reveal: toggled by the <Reveal> component. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    transition:
+      opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Decorative desktop cursor (see CustomCursor.jsx). The native cursor stays visible. */
+  .cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid color-mix(in srgb, var(--color-paper) 50%, transparent);
+    border-radius: 9999px;
+    pointer-events: none;
+    opacity: 0;
+    will-change: transform;
+    transition:
+      width 0.3s ease,
+      height 0.3s ease,
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      opacity 0.3s ease;
+  }
+
+  .cursor-ring span {
+    font-size: 0.6rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .cursor-ring[data-state="link"] {
+    width: 3rem;
+    height: 3rem;
+    border-color: var(--color-brass);
+  }
+
+  .cursor-ring[data-state="view"] {
+    width: 5rem;
+    height: 5rem;
+    border-color: transparent;
+    background-color: color-mix(in srgb, var(--color-ink) 75%, transparent);
+  }
+
+  .cursor-ring[data-state="view"] span {
+    opacity: 1;
+  }
+}
+
+/* Respect the user's motion preference everywhere. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

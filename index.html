@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+  Main page of the Ira Sen Photography sample site.
+  Contains SEO and social meta tags, plus a hidden static copy of the booking form
+  so Netlify Forms can detect it at deploy time (the visible form is rendered by React).
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ira Sen | Wedding, Portrait &amp; Travel Photographer in Jaipur</title>
+    <meta
+      name="description"
+      content="Ira Sen is a Jaipur-based wedding, portrait and travel photographer creating quiet, honest images of people and places. View the portfolio and book a shoot."
+    />
+    <meta name="theme-color" content="#0e0e0e" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="https://ira-sen-photography.netlify.app/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ira Sen Photography" />
+    <meta property="og:title" content="Ira Sen | Wedding, Portrait &amp; Travel Photographer" />
+    <meta
+      property="og:description"
+      content="Quiet, honest photographs of people and the places they love. Based in Jaipur, available worldwide."
+    />
+    <meta property="og:url" content="https://ira-sen-photography.netlify.app/" />
+    <meta property="og:image" content="https://ira-sen-photography.netlify.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A photograph from the Ira Sen portfolio" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <!-- Netlify Forms detection: field names must match the React form exactly. -->
+    <form name="booking" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <select name="shootType"></select>
+      <input type="date" name="date" />
+      <input type="text" name="location" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+
+    <div id="root"></div>
+    <noscript>
+      This website needs JavaScript to show the portfolio. You can reach Ira at hello@irasen.example.
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

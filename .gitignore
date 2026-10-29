@@ -1,0 +1,14 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Original, unoptimized photos (only the optimized files in public/images are committed)
+images-src/
+
+# Local environment and tooling
+.env
+.env.*
+.netlify/
+*.log
+.DS_Store
+Thumbs.db
